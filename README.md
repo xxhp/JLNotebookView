@@ -8,7 +8,7 @@ right now but I plan to add checkboxes and a view for creating items.
 Preview:
 --------
 
-![preview](blob/master/Preview.png)
+![preview](https://github.com/jarodl/JLNotebookView/blob/master/Preview.png)
 
 Usage:
 ------
