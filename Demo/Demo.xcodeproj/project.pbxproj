@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3B5C401339504700973E4B /* JLNotebookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B5C3F1339504700973E4B /* JLNotebookView.m */; };
 		7A5D214513388F98006909CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5D214413388F98006909CC /* UIKit.framework */; };
 		7A5D214713388F98006909CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5D214613388F98006909CC /* Foundation.framework */; };
 		7A5D214913388F98006909CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5D214813388F98006909CC /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3B5C3E1339504700973E4B /* JLNotebookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLNotebookView.h; path = ../../JLNotebookView.h; sourceTree = "<group>"; };
+		7A3B5C3F1339504700973E4B /* JLNotebookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLNotebookView.m; path = ../../JLNotebookView.m; sourceTree = "<group>"; };
 		7A5D214013388F98006909CC /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5D214413388F98006909CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A5D214613388F98006909CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 				7A5D215913388F98006909CC /* RootViewController.h */,
 				7A5D215A13388F98006909CC /* RootViewController.m */,
 				7A5D215C13388F98006909CC /* RootViewController.xib */,
+				7A3B5C3E1339504700973E4B /* JLNotebookView.h */,
+				7A3B5C3F1339504700973E4B /* JLNotebookView.m */,
 				7A5D214B13388F98006909CC /* Supporting Files */,
 			);
 			path = Demo;
@@ -164,6 +169,7 @@
 				7A5D215213388F98006909CC /* main.m in Sources */,
 				7A5D215513388F98006909CC /* DemoAppDelegate.m in Sources */,
 				7A5D215B13388F98006909CC /* RootViewController.m in Sources */,
+				7A3B5C401339504700973E4B /* JLNotebookView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +282,7 @@
 				7A5D216313388F98006909CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
