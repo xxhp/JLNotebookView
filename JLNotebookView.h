@@ -9,7 +9,6 @@
 
 @interface JLNotebookView : UIView
 {
-  BOOL hasHighResScreen;
 }
 
 @property (nonatomic) CGPoint startPoint;

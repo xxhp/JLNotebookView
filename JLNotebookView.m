@@ -20,15 +20,6 @@
     startPoint = CGPointMake(44.0, 0.0);
     endPoint = CGPointMake(44.0, self.frame.size.height);
     lineColor = [UIColor blackColor];
-    
-    // we only draw one line if there is not retina support
-    hasHighResScreen = NO;
-    if ([UIScreen instancesRespondToSelector:@selector(scale)]) {
-      CGFloat scale = [[UIScreen mainScreen] scale];
-      if (scale > 1.0) {
-        hasHighResScreen = YES;
-      }
-    }
   }
   return self;
 }
